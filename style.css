@@ -39,3 +39,5 @@ li.showDetails span.type{margin-left:15px;color:#666;font-size:11pt;}
 #footer span{margin-top:2px;display:block;margin-left:160px;color:#505050;text-decoration:none;font-size:12px;}
 #footer span:first-child{color:#6c6c6c;font-weight:bold;font-size:small;}
 #footer span a{color:black;}
+td.logo .channel_img{display:block;height:50px;width:50px;background-image:url(img/channel/all-50px.png);}
+td.logo30 .channel_img{display:block;height:30px;width:30px;background-image:url(img/channel/all-30px.png);}

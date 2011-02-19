@@ -42,7 +42,6 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 	<meta name="apple-mobile-web-app-capable" content="yes"/>
@@ -55,7 +54,6 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
 	<link rel="apple-touch-icon" href="img/home-icon.png" />
 	<meta name="verify-v1" content="4S2PhWFYxGN12RA9Z4NJ1UFRBjeqwcfil8B8mJSNvfg=" />
 </head>
-
 <body>
 	<div id="header">
 		
@@ -83,12 +81,12 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
 		</ul>
 	</div>
 	
-	<!--div id="footer">
-		<span>poweredby.grafenko</span>
+	<div id="footer">
+		<!--span>poweredby.grafenko</span>
 		<span><a href="mailto:watchout@scallioncorp.com">watchout@scallioncorp.com</a></span-->
 		<!-- Google Analytics -->
 		<img src="<?php echo googleAnalyticsGetImageUrl(); ?>" style="display:none;" alt="google analytics"/>
-	<!--/div-->
+	</div>
 	
 	<script type="text/javascript" charset="utf-8" src="mootools-all.js"></script>
 	<script type="text/javascript" charset="utf-8" src="mootools-more.js"></script>

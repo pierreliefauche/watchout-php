@@ -28,7 +28,7 @@ $random = trim(money_format('%=0#3.0n', rand(0,999)));
 		<li id="channel-<?php echo $random.$channel['id'] ?>" class="channel">
 			<table>
 				<tr>
-					<td class="logo30"><img src="img/channel/<?php echo $channel['id'] ?>.png" alt="<?php echo (isset($names[$channel['id']]))?($names[$channel['id']]):($channel['id']) ?>" width="30"/></td>
+					<td class="logo30"><!--img src="img/channel/<?php echo $channel['id'] ?>.png" alt="<?php echo (isset($names[$channel['id']]))?($names[$channel['id']]):($channel['id']) ?>" width="30"/--><span class="channel_img" style="background-position:0px -<?php echo 30*($channel['id']-1) ?>px;"></span></td>
 					<td colspan="2"><a class="now show #<?php echo $random.$channel['id'] ?>" href="<?php echo $channel['showLink'] ?>"><?php echo $channel['show'] ?></a></td>
 				</tr>
 
@@ -45,7 +45,7 @@ $random = trim(money_format('%=0#3.0n', rand(0,999)));
 	<li class="channel" id="channel-<?php echo $random.$channel['id'] ?>">
 		<table>
 			<tr>
-				<td class="logo"><img src="img/channel/<?php echo $channel['id'] ?>.png" alt="<?php echo (isset($names[$channel['id']]))?($names[$channel['id']]):($channel['id']) ?>"/></td>
+				<td class="logo"><span class="channel_img" style="background-position:0px -<?php echo 50*($channel['id']-1) ?>px;"></span></td>
 				<td colspan="2"><a class="now show #<?php echo $random.$channel['id'] ?>" href="<?php echo $channel['nowLink'] ?>"><?php echo $channel['now'] ?></a></td>
 			</tr>
 			<tr>
