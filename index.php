@@ -51,7 +51,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
 	<title>watchout! programme TV sur iPhone</title>
 	<meta content="tv television program programme iphone france paf français apple" name="Keywords" />
 	<meta content="Le programme TV sur iPhone!" name="description" />
-	<link rel="apple-touch-icon" href="img/home-icon.png" />
+	<link rel="apple-touch-icon" href="http://cache.scallioncorp.com/watchout/img/home-icon.png" />
 	<meta name="verify-v1" content="4S2PhWFYxGN12RA9Z4NJ1UFRBjeqwcfil8B8mJSNvfg=" />
 </head>
 <body>
@@ -88,9 +88,8 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
 		<img src="<?php echo googleAnalyticsGetImageUrl(); ?>" style="display:none;" alt="google analytics"/>
 	</div>
 	
-	<script type="text/javascript" charset="utf-8" src="mootools-all.js"></script>
-	<script type="text/javascript" charset="utf-8" src="mootools-more.js"></script>
-	<script type="text/javascript" charset="utf-8" src="iphone.js"></script>
+	<script type="text/javascript" charset="utf-8" src="http://cache.scallioncorp.com/watchout/mootools-merged.js"></script>
+	<script type="text/javascript" charset="utf-8" src="http://cache.scallioncorp.com/watchout/iphone.js"></script>
 	
 </body>
 

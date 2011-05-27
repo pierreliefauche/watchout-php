@@ -22,7 +22,7 @@ td.logo{height:50px;//background-color:#de6e68;width:50px;text-align:center;}
 td.logo30{height:30px;//background-color:#de6e68;width:30px;text-align:center;}
 td.time{font-size:x-small;color:#555;text-align:center;}
 td a.now{font-weight:bold;color:#e28618;text-shadow:rgba(150,150,150,1) -1px 1px 0px;font-size:14pt;}
-td.progression{border:#BBB 1px solid;padding:0px;height:6px;vertical-align:middle;background:url('img/style/list/progress-bar.jpg');}
+td.progression{border:#BBB 1px solid;padding:0px;height:6px;vertical-align:middle;background:url('http://cache.scallioncorp.com/watchout/img/progress-bar.jpg');}
 div.progressBar{background:rgba(0,139,255,0.5);font-size:xx-small;height:100%;text-align:right;vertical-align:middle;color:#E8E8E8;}
 td a.next{font-size:small;color:#4C4C4C;}
 td.bout{width:40px;}
@@ -35,9 +35,9 @@ li.showDetails img.photo{margin-left:5px;margin-top:10px;}
 li.showDetails p{font-size:10pt;text-align:justify;width:300px;margin:10px 5px !important;color:#555;}
 li.showDetails span.horaire{margin-left:15px;color:#777;font-size:small;}
 li.showDetails span.type{margin-left:15px;color:#666;font-size:11pt;}
-#footer{padding:0px;float:left;bottom:0px;width:100%;height:35px;background:url("img/style/footer.png") no-repeat;margin:10px 0px 0px 0px;}
+#footer{padding:0px;float:left;bottom:0px;width:100%;height:35px;background:url('http://cache.scallioncorp.com/watchout/img/footer.png') no-repeat;margin:10px 0px 0px 0px;}
 #footer span{margin-top:2px;display:block;margin-left:160px;color:#505050;text-decoration:none;font-size:12px;}
 #footer span:first-child{color:#6c6c6c;font-weight:bold;font-size:small;}
 #footer span a{color:black;}
-td.logo .channel_img{display:block;height:50px;width:50px;background-image:url(img/channel/all-50px.png);}
-td.logo30 .channel_img{display:block;height:30px;width:30px;background-image:url(img/channel/all-30px.png);}
+td.logo .channel_img{display:block;height:50px;width:50px;background-image:url('http://cache.scallioncorp.com/watchout/img/all-50px.png');}
+td.logo30 .channel_img{display:block;height:30px;width:30px;background-image:url('http://cache.scallioncorp.com/watchout/img/all-30px.png');}
